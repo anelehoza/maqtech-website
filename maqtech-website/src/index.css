@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+
+@theme {
+  --semi-wite-:#f4f4f6;
+  --brand--sky-blue: #007bfc;
+  --neutral--black-900: #142149;
+  --font--heading-font: Roboto, sans-serif;
+  --neutral--gray-600: #7d7e85;
+  --brand--linear-0: #021048;
+  --brand--linear-100: #1e38a3;
+ 
+  --font-roboto: "Roboto", sans-serif; 
+
+
+}
+.header {
+  background: #021048;
+  background: url('../src/assets/backround.png');
+  
+}
+.header-wrapper{
+  width: 650px;
+}
+h1{
+  color: #007bfc;
+}
+.header-wrapper p {
+  font-size: 30px;
+  color: #142149;
+  font-weight: 900;
+}

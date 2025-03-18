@@ -5,21 +5,24 @@ import { Outlet } from "react-router"
 
 const About = () => {
   return (
-    <>
+    <div>
     <Navigation />
-    <div className='bg-white shadow-xl flex justify-center  m-35 transform-3d scale-3d'>
-        <div className='w-[700px] px-5 mb-2'>
+
+      <div className="h-auto w-full grid grid-cols-2  justify-center mb-20 mt-45">
+      <div className='w-full px-5 mb-2'>
             <h1 className='px-7 mb-4 py-6 text-2xl font-semibold transform-3d scale-3d'>Profile</h1>
             <p>I am a versatile, hands-on software developer with knowledge and expertise of working on a variety of projects from conception to delivery. I am conversant in a wide range of technologies - most notably HTML, CSS, JavaScript, Java,  SQL and NoSQL – and i follow the latest industry trends with great interest. My approach is methodical but creative, and I always look to code to the highest standards possible. I am a confident communicator and am comfortable working either independently or as part of a team.</p>
         </div>
-        <div className='py-6'>
+        <div className='w-full py-6 px-5'>
             <img src="./src/assets/profile-photo.jpg" alt="profile-photo" />
         </div>
+      </div>
+      <div className=" bg-white  w-full ">
+            <h2 className="font-sans text-4xl text-[#1e38a3] font-extrabold w-full px-20 ">With expertise in the latest technologies, we ensure that every project is built with precision and aligned with your business objectives.</h2>
         </div>
-        <div className=" bg-white justify-center w-full transform-3d scale-3d">
-            <h2 className="font-sans text-4xl text-[#1e38a3] font-extrabold w-[600px] mx-5 mb-4 ">With expertise in the latest technologies, we ensure that every project is built with precision and aligned with your business objectives.</h2>
-            <h3 className="px-20">Our development process involves multiple stages, ensuring quality and precision:</h3>
-            <ul className="px-20 mb-4" >
+        <div className="h-screen w-full mb-20">
+        <h3 className="px-20 text-2xl py-5">Our development process involves multiple stages, ensuring quality and precision:</h3>
+        <ul className="px-20 " >
           <li>Planning & Strategy: Mapping out your project timeline, milestones, and technical requirements.
           </li>
           <li>Custom Coding: Writing clean, efficient, and scalable code tailored to your specific needs.
@@ -32,11 +35,11 @@ const About = () => {
           </li>
           <li>Maintenance & Updates: Providing ongoing support to keep your digital products running smoothly.
           </li>
-      </ul>
-  </div>
+        </ul>
+        </div>
     <Footer />
   <Outlet />
-    </>
+    </div>
     )
 }
 

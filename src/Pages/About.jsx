@@ -14,7 +14,7 @@ const About = () => {
             <p>I am a versatile, hands-on software developer with knowledge and expertise of working on a variety of projects from conception to delivery. I am conversant in a wide range of technologies - most notably HTML, CSS, JavaScript, Java,  SQL and NoSQL – and i follow the latest industry trends with great interest. My approach is methodical but creative, and I always look to code to the highest standards possible. I am a confident communicator and am comfortable working either independently or as part of a team.</p>
         </div>
         <div className='w-full py-6 px-5'>
-            <img className="h-[500px]"src="./src/assets/profPic .jpg" alt="profile-photo" />
+            <img className="h-[500px]"src="/src/assets/profPic .jpg" alt="profile-photo" />
         </div>
       </div>
       <div className=" bg-white  w-full ">

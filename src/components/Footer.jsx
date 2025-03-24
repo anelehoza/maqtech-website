@@ -9,12 +9,15 @@ const Footer = () => {
   return (
     <div>
     <div className='flex justify-between h-[200px] bottom-0 w-full bg-[#1e38a3] grid-cols-3 py-6  '>
-        <div className='px-10 '>
+        <div className=' px-10 '> 
             <h3 className='font-semibold text-2xl text-[#f4f4f6] mb-4'>Usefull links</h3>
-            <NavLink to="/" className='  text-[#f4f4f6]'>Home </NavLink>
-            <NavLink to="/About" className='  text-[#f4f4f6]'>About</NavLink>
-            <NavLink to="/Services" className=' text-[#f4f4f6]'>Services</NavLink>
+            <div className='block'>
+            <p><NavLink to="/" className='  text-[#f4f4f6]'>Home </NavLink></p>
+            <p><NavLink to="/About" className='  text-[#f4f4f6]'>About</NavLink></p>
+            <p><NavLink to="/Services" className=' text-[#f4f4f6]'>Services</NavLink></p>
             <Outlet />
+            </div>
+           
         </div>
         <div>
             <h3 className='font-semibold text-2xl text-[#f4f4f6] mb-4  ' >Socials</h3>

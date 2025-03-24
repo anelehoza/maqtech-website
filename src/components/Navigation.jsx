@@ -3,8 +3,7 @@ import {NavLink} from 'react-router'
 import { HiMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Dialog, DialogPanel } from '@headlessui/react'
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-
+import Contact from './Contact';
 
 
 const navigation =[
@@ -22,18 +21,13 @@ const Navigation = () => {
             <h1 data-test-id="logo" className="flex h-[60px] w-[70px] text-5xl text-[#007bfc]">MAQ <span className="text-[#1e38a3] ">tech</span></h1>
             </NavLink>
           </div>
-          <div className="hidden md:block" >
+          <div className="lg: flex md:hidden" >
             <NavLink to="/" className="m-3 text-2xl">Home</NavLink>
             <NavLink to="/About" className=" m-3 text-2xl">About</NavLink>
             <NavLink to="/Services" className="m-3 text-2xl ">Services</NavLink>
           </div>
           <div>
-          <Popover className="relative">
-      <PopoverButton><p className="bg-[#007bfc] p-2">Contact</p></PopoverButton>
-      <PopoverPanel anchor="bottom" className="flex flex-col">
-       
-      </PopoverPanel>
-    </Popover>
+          <Contact />
           </div>
           <div className="lg:hidden">
             <button type="button"

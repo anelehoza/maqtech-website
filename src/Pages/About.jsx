@@ -1,16 +1,17 @@
 import Navigation from "../components/Navigation"
 import Footer from "../components/Footer"
 import { Outlet } from "react-router"
+import profPic from "/src/assets/profPic.png"
 
-
-const About = () => {
+const About = (props) => {
+  let imageStyle = 'imageStyle';
   return (
     <div>
     <Navigation />
 
       <div className="lg:flex flex-col-1 items-center gap-6 pt-25 p-7  md:flex-row ">
         <div className="basis-2/8">
-          <img className="size-78 shadow-xl" src="/src/assets/profPic.png" alt="profile-photo" />
+          <img className="size-78 shadow-xl" src={profPic} alt="profile-photo" />
         </div>
         <div className='flex basis-1/2 items-center md:items-start'> 
           <span className="font-medium">I am a versatile, hands-on software developer with knowledge and expertise of working on a variety of projects from conception to delivery. I am conversant in a wide range of technologies - most notably HTML, CSS, JavaScript, Java,  SQL and NoSQL – and i follow the latest industry trends with great interest. My approach is methodical but creative, and I always look to code to the highest standards possible. I am a confident communicator and am comfortable working either independently or as part of a team.</span>

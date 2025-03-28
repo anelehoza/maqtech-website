@@ -15,17 +15,3 @@
 
 
 }
-.header {
-  background: #021048;
-  background: url('../src/assets/backround.png');
-  
-}
-.header-wrapper{
-  width: 650px;
-}
-
-.header-wrapper p {
-  font-size: 30px;
-  color: #142149;
-  font-weight: 900;
-}

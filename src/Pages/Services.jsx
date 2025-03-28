@@ -11,7 +11,7 @@ const Services = () => {
       <div className="m-10 bg-white shodow-xl items-center justify-center px-4 ">
         <h1 className="text-4xl font-semibold">Web Development</h1>
         <h3 className="py-[15px] text-2xl font-semibold">Explore my work</h3>
-        <img className=" mb-5 w-[450px] " src="/src/assets/tyeks-home.png" alt="tyekshome image" />
+        <img className=" mb-5 w-[450px] " src="/src/assets/tyeks-home.png" alt="" />
         <p ><a href="https://tyekssecurity.co.za" className="bg-[#1e38a3] p-1 text-white rounded-2xl">click for Preview </a></p>
       </div>
       <div className="m-10 bg-white shodow-xl px-4">

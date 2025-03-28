@@ -1,5 +1,6 @@
-
+import responsive from "/src/assets/responsive.png"
 const Homepage = () => {
+  
   return (
     <div>
         <div className=" mt-10 p-6 items-center">
@@ -16,7 +17,7 @@ const Homepage = () => {
                 <p className="sm:text-sm/8 m-1 lg:text-lg "> Includes smooth animations and transitions to enhance user experience without overwhelming the design.</p>
           </div>
           <div className="size-60 animated-bounce ...">
-              <img src="/src/assets/responsive.png" alt="" />
+              <img src={responsive} alt="" />
           </div>
               </div>
         </div>
